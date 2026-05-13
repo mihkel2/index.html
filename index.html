@@ -1,83 +1,133 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mihkel VR Cheats</title>
-  <style>
-    body {
-      background-color: #0d0d0d;
-      color: #ffffff;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px 20px;
-    }
+<meta charset="UTF-8">
+<title>Mihkel cheats</title>
 
-```
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
 }
 
-hr {
-  border: 1px solid #333;
-  margin: 20px auto;
-  width: 60%;
+l
+nav {
+    background: #1a1a1a;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
 }
 
-h2 {
-  font-size: 1.4rem;
-  margin-top: 30px;
-  color: #cccccc;
+nav a {
+    color: white;
+    text-decoration: none;
 }
 
-.btn {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 28px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
+nav a:hover {
+    color: #00ff99;
 }
 
-.free {
-  background-color: #1a73e8;
-  color: white;
+
+section {
+    padding: 30px;
 }
 
-.paid {
-  background-color: #ff813f;
-  color: white;
+
+.post {
+    background: #1c1c1c;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
-.btn:hover {
-  opacity: 0.85;
+.post h3 {
+    margin-top: 0;
+    color: #00ff99;
 }
-```
 
-  </style>
+.post img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+.tutorial-card {
+    background: #1c1c1c;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.tutorial-card a {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+}
+</style>
+
 </head>
+
 <body>
 
-  <h1>Mihkel Cheats</h1>
-  <hr>
 
-  <div style="background:#1a1a1a; border:1px solid #333; border-radius:8px; padding:16px; max-width:600px; margin:0 auto 20px; text-align:left;">
-    <strong style="color:#aaa; font-size:0.85rem;">README</strong>
-    <p style="margin:8px 0 0;">My projects are Free and there isn't a lot of ads — stop being cheap and do the Linkvertise, I deserve money too(unless you get the 1hr shit</>
-.</p>
-    <p style="margin:8px 0 0; color:#aaa; font-size:0.9rem;">Мои проекты бесплатны и рекламы почти нет — хватит жадничать, пройдите Linkvertise, я тоже заслуживаю денег.</p>
-  </div>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#posts">Posts</a>
+    <a href="#tutorials">Tutorials</a>
+</nav>
 
-  <hr>
 
-  <h2>Free Mods</h2>
-  <a class="btn free" href="https://linkvertise.com/5699500/FRj7E4MdM74V" target="_blank">Rocky</a>
+<section id="home">
+    <h1>Welcome</h1>
+    <p>My modding / dev website</p>
+</section>
 
-  <h2>Paid</h2>
-  <a class="btn paid" href="https://buymeacoffee.com" target="_blank">Buy Me a Coffee</a>
+<!-- POSTS -->
+<section id="posts">
+    <h2>Posts</h2>
+
+    <div class="post">
+        <h3>Rocky</h3>
+        <p>This is my main post about Rocky.</p>
+
+        <!-- GIF UNDER POST -->
+        <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif">
+    </div>
+
+    <div class="post">
+        <h3>New Update</h3>
+        <p>Added tutorials + better UI system.</p>
+
+        <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif">
+    </div>
+
+</section>
+
+
+<section id="tutorials">
+    <h2>Tutorials</h2>
+
+    <div class="tutorial-card">
+        <h3>How to install OBBS</h3>
+        <p>Learn how APK modding works from scratch.</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Watch Tutorial
+        </a>
+    </div>
+
+    <div class="tutorial-card">
+        <h3>Unity Hooking</h3>
+        <p>Learn basic IL2CPP / hooking concepts.</p>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            Watch Tutorial
+        </a>
+    </div>
+
+</section>
 
 </body>
 </html>
